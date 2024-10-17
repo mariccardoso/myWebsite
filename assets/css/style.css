@@ -293,17 +293,15 @@ section{
 section.logotipos {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 5rem;
     background: var(--gradient-color-bg);
     padding: 2rem 8%;
 }
 
 section.logotipos img{
-    height: 4rem;
+    height: 3rem;
 }
 /*======================= @keyframes ============================ */
 
