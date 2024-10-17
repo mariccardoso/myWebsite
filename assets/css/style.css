@@ -294,10 +294,12 @@ section.logotipos {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background: var(--gradient-color-bg);
     padding: 2rem 8%;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 section.logotipos img{
