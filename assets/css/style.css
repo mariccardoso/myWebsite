@@ -45,6 +45,7 @@ header{
     background: var(--gradient-white-bg);
     z-index: 100;
     transition: .3s;
+    margin-bottom: 2rem;
 }
 
 /* Meu nome (Logo)*/
@@ -268,7 +269,7 @@ section{
 
 .img-hero{
     position: relative;
-    animation: floatImage 4s ease-in-out infinite;
+    animation: floatImage 5s ease-in-out infinite;
     animation-delay: 3s;
 }
 
