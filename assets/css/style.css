@@ -277,6 +277,8 @@ section{
     width: 700px;
     height: auto;
     z-index: 10;
+    border-radius: 5%;
+    box-shadow: 0px 9px 47px -3px rgba(62, 0, 104, 0.66);
 }
 
 
@@ -289,6 +291,7 @@ section{
     font-size: 1.2rem;
 }
 
+/*===================== Logotipos Section ============================*/
 
 section.logotipos {
     display: flex;
@@ -305,6 +308,57 @@ section.logotipos {
 section.logotipos img{
     height: 3rem;
 }
+
+
+
+
+/*========================About Section============================*/
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about .about-img{
+    position: relative;
+}
+
+.about .about-img .aboutMari{
+    width: 40rem;
+    box-shadow: 0px 9px 47px -3px rgba(62, 0, 104, 0.66);
+    border-radius: 5%;
+}
+
+.about-content{
+    padding: 3rem 0;
+}
+
+.about-content h2{
+    font-size: 3rem;
+    background: var(--gradient-color-bg);
+    background-clip: text;
+    color: transparent;
+}
+
+.about-content h3{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: .5rem 0;
+}
+
+.about-content p{
+    color: var(--font-color);
+}
+
+.goal-item p{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+
+
+
 /*======================= @keyframes ============================ */
 
 @keyframes moveText{
