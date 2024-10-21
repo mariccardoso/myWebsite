@@ -22,42 +22,42 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; /* Remove underline */
     color: #000;
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
-    background: var(--bg-color);
-    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif; /* Fonte padrão */
+    background: var(--bg-color); /* Cor de fundo */
+    overflow-x: hidden; /* Remove a barra de rolagem horizontal */
 }
 
 /* Estrutura da Header*/
 header{
-    padding: 15px 8%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--gradient-white-bg);
-    z-index: 100;
-    transition: .3s;
-    margin-bottom: 2rem;
+    padding: 15px 8%; /* Espaçamento interno */
+    width: 100%; /* Largura */
+    position: fixed; /* Fixa no topo */
+    top: 0;  /* Distância do topo */
+    left: 0; /* Distância da esquerda */
+    display: flex; 
+    align-items: center; /* Alinhamento vertical */
+    justify-content: space-between; /* Alinhamento horizontal */
+    background: var(--gradient-white-bg); /* Cor de fundo */
+    z-index: 100; /* Z-index */
+    transition: .3s; 
+    margin-bottom: 2rem; /* Margem inferior */
 }
 
 /* Meu nome (Logo)*/
 header .logo{
-    font-size: 1.7rem;
-    font-weight: 700;
+    font-size: 1.7rem; /* Tamanho da fonte */
+    font-weight: 700; /* Peso da fonte */
 }
 
 span{
-    background: var(--gradient-color-bg);
-    background-clip: text;
-    color: transparent;
+    background: var(--gradient-color-bg); /* Cor de fundo */
+    background-clip: text; /* Clipa o texto */
+    color: transparent; /* Adiciona tranparencia para cor ficar gradiente */
 }
 
 /*Barra de Navegação*/
@@ -66,11 +66,11 @@ ul.navlist{
 }
 
 .navlist li{
-    margin: 0 1rem;
+    margin: 0 1rem; 
 }
 
 .navlist li a{
-    display: inline-flex;
+    display: inline-flex; /* Alinha os itens em linha */
     font-weight: 600;
 }
 
@@ -85,8 +85,8 @@ ul.navlist{
 /* Estios para os itens da direita*/
 .right-header{
     display: flex;
-    align-items: center;
-    justify-content: end;
+    align-items: center; /* Alinhamento vertical */
+    justify-content: end; /* Alinhamento horizontal */
     grid-gap: .8rem;
 }
 
@@ -103,13 +103,15 @@ ul.navlist{
     box-shadow: var(--hover-box-shadow);
 }
 
-/* Estilos para o menu Hamburguer (responsividade)*/
-.menu-icon{
-    position: relative;
-    display: block;
+
+
+/* ================ Estilos para o menu Hamburguer (responsividade)========================*/
+.menu-icon{ 
+    position: relative; 
+    display: block; /* Exibe em bloco */
     width: 30px;
     height: 30px;
-    cursor: pointer;
+    cursor: pointer; /* Muda o cursor */
     /* background: blue; */
 }
 
@@ -117,24 +119,24 @@ ul.navlist{
 .menu-icon::after,
 .menu-icon::before{
     content: "";
-    display: none;
+    display: none; /* Oculta */
     width: 100%;
     height: 4px;
-    border-radius: 3px;
+    border-radius: 3px; /* Borda arredondada */
     background: #000;
-    margin: 6px 0;
+    margin: 6px 0; /* Margem */
     transition: .4s;
 }
 
 .menu-icon.active::before{
-    transform: rotate(-45deg) translate(-6px , 6px);
+    transform: rotate(-45deg) translate(-6px , 6px); /* Rotaciona */
 }
 
 .menu-icon.active::after{
-    transform: rotate(45deg)translate(-8px , -8px);
+    transform: rotate(45deg)translate(-8px , -8px); /* Rotaciona */
 }
 
-.menu-icon.active .bar{
+.menu-icon.active .bar{ 
     opacity: 0;
 }
 
@@ -155,22 +157,22 @@ section{
     background: var(--gradient-white-bg2);
 }
 
-.hero-info{
+.info{
     margin-top: 3rem;
 }
 
-.hero-info h3{
+.info h3{
     color: var(--font-color);
     font-weight: 300;
     text-transform: uppercase;
     font-size: 1.1rem;
 }
 
-.hero-info h1{
+.info h1{
     font-size: 3.5rem;
 }
 
-.hero-info h2{
+.info h2{
     font-size: 2rem;
     font-weight: 900;
     margin-bottom: 1rem;
@@ -198,7 +200,7 @@ section{
 }
 
 
-.hero-info p{
+.info p{
     font-size: .9rem;
     color: var(--font-color);
     line-height: 1.5rem;
@@ -415,7 +417,7 @@ section.logotipos img{
     .about,.contactSkills{
         flex-direction: column;
     }
-    .about .about-img .aboutHero{
+    .about .about-img .aboutMari{
         width: 100%;
     }
     .proposal img{
