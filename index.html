@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
 
+
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <!-- boxicon css link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -28,7 +32,6 @@
             <li><a href="#about">Sobre Mim</a></li>
             <li><a href="#experiences">Experiência</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contato</a></li>
         </ul>
         <div class="right-header">
@@ -53,7 +56,8 @@
 
             <div class="social-media">
                 <div class="bg-icon">
-                    <a href="https://www.instagram.com/mariiicaardoso?igsh=MWIwa2RkaW9uOWN4dQ%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.instagram.com/mariiicaardoso?igsh=MWIwa2RkaW9uOWN4dQ%3D%3D&utm_source=qr"
+                        target="_blank"><i class='bx bxl-instagram'></i></a>
                     <span></span>
                 </div>
 
@@ -63,7 +67,8 @@
                 </div>
 
                 <div class="bg-icon">
-                    <a href="https://www.linkedin.com/in/mariana-cardoso-507bba244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.linkedin.com/in/mariana-cardoso-507bba244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                        target="_blank"><i class='bx bxl-linkedin'></i></a>
                     <span></span>
                 </div>
             </div>
@@ -98,7 +103,8 @@
         <div class="about-content">
             <h2 class="heading">Sobre Mim</h2>
             <h3>Estudante de desenvolvimento de sistemas SENAI-SP</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatem autem ex in. Temporibus et maiores ipsum recusandae voluptas consequatur!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatem autem ex in. Temporibus et
+                maiores ipsum recusandae voluptas consequatur!</p>
             <ul class="goals">
                 <li class="goal-item">
                     <img src="q" alt="">
@@ -131,47 +137,159 @@
         <div class="allexperiences">
             <div class="experiencesItem">
                 <div class="icon-experiences">
-                    <i class='bx bx-layer' ></i>
+                    <i class='bx bx-layer'></i>
                     <span></span>
                 </div>
                 <h3>App Development</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi
+                    voluptates maxime ipsam eveniet. Facilis.</p>
                 <a href="#" class="readMore">Read More</a>
             </div>
 
             <div class="experiencesItem">
                 <div class="icon-experiences">
-                    <i class='bx bx-code-alt' ></i>
+                    <i class='bx bx-code-alt'></i>
                     <span></span>
                 </div>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi
+                    voluptates maxime ipsam eveniet. Facilis.</p>
                 <a href="#" class="readMore">Read More</a>
             </div>
 
             <div class="experiencesItem">
                 <div class="icon-experiences">
-                    <i class='bx bx-desktop' ></i>
+                    <i class='bx bx-desktop'></i>
                     <span></span>
                 </div>
                 <h3>UI / UX Design</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi
+                    voluptates maxime ipsam eveniet. Facilis.</p>
                 <a href="#" class="readMore">Read More</a>
             </div>
 
             <div class="experiencesItem">
                 <div class="icon-experiences">
-                    <i class='bx bxs-party' ></i>
+                    <i class='bx bxs-party'></i>
                     <span></span>
                 </div>
                 <h3>Digital Marketing</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi
+                    voluptates maxime ipsam eveniet. Facilis.</p>
                 <a href="#" class="readMore">Read More</a>
             </div>
         </div>
+    </section>
 
-    <!---Funcionalidades JS-->
+    <!--=========================== Portfolio ============================-->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text" id="portfolio-text">
+            <h2 class="heading">Portfolio</h2>
+            <span>Latest News & Post</span>
+        </div>
+
+        <div class="portfolio-box swiper mySwiper">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="./assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="./assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="./assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="./assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="./assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="./assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <!--Funcionalidades js-->
     <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>

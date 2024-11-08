@@ -17,8 +17,6 @@ navlist.addEventListener("click",()=>{
 
 
 
-
-
 // Initialize swiperjs 
 
 var swiper = new Swiper(".mySwiper", {
