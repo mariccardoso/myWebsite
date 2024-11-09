@@ -30,6 +30,7 @@
 .experiences{
     position: relative;
     background: var(--gradient-color-bg2);
+    box-shadow: 0px -9px 15px rgba(53,0,225,1);
 }
 .main-text{
     width: 100%;
@@ -37,11 +38,11 @@
     margin-bottom: 2rem;
 }
 
-.main-text .heading{
+#white-text .heading {
     color: var(--bg-color);
 }
 
-.main-text span{
+#white-text span{
     color: var(--bg-color);
     font-weight: 200;
     text-transform: uppercase;

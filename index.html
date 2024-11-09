@@ -7,10 +7,11 @@
     <title>Mariana Cardoso Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsie/responsive.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/about.css">
-    <link rel="stylesheet" href="assets/css/experience.css">
-    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/landing-page/home.css">
+    <link rel="stylesheet" href="assets/css/landing-page/about.css">
+    <link rel="stylesheet" href="assets/css/landing-page/experience.css">
+    <link rel="stylesheet" href="assets/css/landing-page/portfolio.css">
+    <link rel="stylesheet" href="assets/css/contact/contact.css">
 
 
      <!-- Link Swiper's CSS -->
@@ -129,7 +130,7 @@
     <!--=========================== Experiencia ============================-->
 
     <section class="experiences" id="experiences">
-        <div class="main-text">
+        <div class="main-text" id="white-text">
             <h2 class="heading">My experiences</h2>
             <span>what i will do for you</span>
         </div>
@@ -279,7 +280,30 @@
 
         <div class="swiper-pagination"></div>
     </section>
-
+    <!--=========================== Contact ============================-->
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                    <span>get in touch with me</span>
+                </div>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="#" id="" cols="30" rows="10">
+                    </textarea>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- scroll reveal  -->
     <script src="https://unpkg.com/scrollreveal"></script>

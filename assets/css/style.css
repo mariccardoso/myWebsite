@@ -36,6 +36,13 @@ body{
     overflow-x: hidden; /* Remove a barra de rolagem horizontal */
 }
 
+.main-text .heading{
+    color: var(--main-color);
+}
+
+.main-text span{
+    color: var(--font-color);
+}
 /* Estrutura da Header*/
 header{
     padding: 15px 8%; /* Espaçamento interno */
